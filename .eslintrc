@@ -1,0 +1,6 @@
+{
+  "extends": ["airbnb/base", "prettier", "prettier/prettier"],
+  "rules": {
+    "import/extensions": ["error", "ignorePackages", { "js": "always", "mjs": "always" }]
+  }
+}
